@@ -1,4 +1,8 @@
-# covid-tracker
+# Covid Tracker  
+Displays the new/total cases and deaths globaly as well as per country.  
+
+##API  
+This project uses the [covid19api.com](https://covid19api.com/) by [Kyle Redelinghuys](https://twitter.com/ksredelinghuys)
 
 ## Project setup
 ```
@@ -14,6 +18,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
