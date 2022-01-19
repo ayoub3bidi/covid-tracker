@@ -2,7 +2,7 @@
     <div class="text-center">
         <h2 class="text-3xl font-bold">{{text}}</h2>
         <div class="text-2xl mt-4 mb-10">
-            {{dataDate}}
+            {{ timestamp }}
         </div>
     </div>
 </template>
@@ -15,7 +15,7 @@ export default {
     props: ['text', 'dataDate'],
     computed: {
         timestamp: function() {
-            return moment(dataDate).format('MMMM Do YYYY, h:mm:ss a')
+            return moment(this.dataDate).format('MMMM D YYYY, h:mm:ss a')
         }
     },
 }
