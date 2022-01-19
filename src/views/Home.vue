@@ -27,7 +27,9 @@ export default {
       loadingImage: require('../assets/hourglass.gif')
     }
   },
-  components: {},
+  components: {
+    DataTitle
+    },
   methods: {
     async fetchCovidData() {
       const res = await fetch ('https://api.covid19api.com/summary')
