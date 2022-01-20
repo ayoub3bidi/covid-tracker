@@ -17,7 +17,7 @@
     <footer>
       <div class="flex justify-center pt-10 pb-10">
         <p class="text-base text-gray-400">
-          Copyright © 2021 | Ayoub Abidi
+          Copyright © 2022 | Ayoub Abidi
         </p>
       </div>
     </footer>
