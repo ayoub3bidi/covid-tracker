@@ -13,6 +13,14 @@
     >
       Clear Country
     </button>
+
+    <footer>
+      <div class="flex justify-center pt-10 pb-10">
+        <p class="text-base text-gray-400">
+          Copyright © 2021 | Ayoub Abidi
+        </p>
+      </div>
+    </footer>
   </main>
 
   <main class="flex flex-col align-center justify-center text-center" v-else>
